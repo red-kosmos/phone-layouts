@@ -1,0 +1,57 @@
+
+/* for individual messages received. message will be in blue. */
+#workskin .messagereceived { 
+  background-color: #dae1e3;
+  word-wrap: break-word;
+  border-radius: 1px 13px 13px 13px;
+  padding: 3px 9px;
+  margin: 2px 10px;
+  color: black;
+  display: inline-block;
+  max-width: 70%;
+  box-shadow: 1px 1px rgba(0, 0, 0, 0.2);
+}
+
+/* for individual messages sent out. message will be in light grey. 
+ao3 cannot add a text-align property in work skins to align these to 
+the right, but you can do it easily while editing the fic itself. */
+#workskin .messagesent {
+  background-color: #008ce3;
+  word-wrap: break-word;
+  border-radius: 13px 13px 1px 13px;
+  padding: 3px 9px;
+  margin: 2px 10px;
+  color: white;
+  display: inline-block;
+  max-width: 70%;
+  box-shadow: 1px 1px rgba(0, 0, 0, 0.2);
+}
+
+/* wrap all messages in a <div> using this class if you
+want to restrict the width of the whole messege section. */
+#workskin .phonescreen {
+  max-width: 500px;
+  margin: auto !important;
+}
+
+/* for the name of the sender and receiver */
+#workskin .name {
+  padding: 0px 7px;
+  font-weight: bold;
+  font-size: 80%;
+}
+
+/* simple gray box if you want to make something look
+like its part of the phone screen */
+#workskin .notification {
+  margin: auto !important;
+  background-color: #dae1e3;
+  border-radius: 8px;
+  padding: 3px 9px;
+  color: black;
+  display: inline-block;
+}
+/* reduces font-size. i use it to write the time on notifications. */
+#workskin .smalltext {
+  font-size: 70%;
+}
